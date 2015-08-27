@@ -52,8 +52,7 @@ ApplicationUI::ApplicationUI(Tomato &tomato) :
     const QString dirPaths = QString::fromLatin1("file://%1/app/public/").arg(workingDir);
     qml->documentContext()->setContextProperty("_publicDir", dirPaths);
 
-    qml->setContextProperty("_tomato", &tomato);
-    //qmlRegisterType<Timer>("_timer",1 ,0 "Timer");
+    qml->setContextProperty("_tomato", &tomato);  // in order to to use the cpp class in aml file
     // Create the application scene
     AbstractPane *root = qml->createRootObject<AbstractPane>();
 

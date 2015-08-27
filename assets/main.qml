@@ -252,7 +252,13 @@ Page {
             SystemDialog {
                 title: "Help"
                 id: helpDiag
-                body: "1. Decide on the task to be done (set task name);\n2. Set the pomodoro timer to n minutes (default set as 25), set short break time (4 minutes by default) and long break time (20 minutes by default) length.\n3. Work on the task until the timer rings;\n4. Take a short break (3–5 minutes) and return to step 3 when timer rings;\n5. After four pomodori, take a longer break (15–30 minutes), returned step 3 when times rings.\n\nIn one word, just click start and start to work!"
+                body: "1. Decide on the task to be done (set task name);\n \
+                2. Set the pomodoro timer to n minutes (default set as 25), \
+                set short break time (4 minutes by default) and long break time \
+                (20 minutes by default) length.\n3. Work on the task until the timer rings;\n \
+                4. Take a short break (3–5 minutes) and return to step 3 when timer rings;\n \
+                5. After four pomodori, take a longer break (15–30 minutes), returned step 3 when times rings.\n\n \
+                In one word, just click start and start to work!"
             }
         ]
 
