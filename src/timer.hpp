@@ -34,5 +34,4 @@ private:
     QTimer* _timer;
 };
 
-
 #endif /* TIMER_HPP_ */
